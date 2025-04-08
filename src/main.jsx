@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Password from'./Password';
+import Password from './Password.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Password />
   </StrictMode>,
-)
+);
